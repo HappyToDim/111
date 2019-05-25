@@ -1,0 +1,51 @@
+body,
+ul,
+dd,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.lf {
+	float: left;
+}
+
+.rt {
+	float: right;
+}
+
+.clearfix {
+	clear: both;
+}
+
+ul {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+input,
+button {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	outline: none;
+}
+
+.clear:after {
+	content: "";
+	display: block;
+	clear: both;
+}
